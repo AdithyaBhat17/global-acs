@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  height:100%;
+  margin:0;
+}
+
+body{
+  background-color: #eaeaea !important;
+  font-family:Poppins !important;
+}
+
+#mainNav {
+  margin-bottom: 0;
+  background-color: rgba(255, 255, 255, 1) ;
+  height: 80px;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 18px;
+  font-weight: lighter;
+  padding: 11px;
+  color: #F30000 !important;
+  border: none !important;
+  outline: none !important;
+}
+
+#mainNav a {
+  color: #F30000;
+  margin: auto 10px;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-transition: background-color 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    -moz-transition: background-color 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    transition: background-color 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    letter-spacing: 1px;
+    border-bottom: none;
+    background: transparent;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+    background: #fff;
+  }
+  #mainNav .nav-link.active {
+    outline: none;
+    border-bottom: 2px solid #fff;
+    transition: border-bottom 2s ease-in;
+  }
+  #mainNav .nav-link.active:hover {
+    color: white;
+  }
+}
+
+.hero-h1{
+  margin:30vh auto 25px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  position: relative;
+}
+.hero-h1:before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    left: 20%;
+    border-bottom: 4px solid #f30000;
+    opacity: 0.8;
+}
+
+.hero-text{
+  text-align: left;
+}
+
+
+
+.hero-img{
+  width: 800px;
+  margin: 20vh auto 0 -15vw;
+}
+
+.btn{
+  padding:10px 0 !important;
+  margin: 0 auto !important;
+  display: block !important;
+}
+
+.btn a{
+  text-decoration: none;
+  color:#23ec50;
+}
+
+.btn-circle {
+  font-size: 26px !important;
+  margin: 0 auto;
+  margin-top: 15px;
+  line-height: 45px;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -moz-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
