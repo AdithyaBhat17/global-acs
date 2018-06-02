@@ -34,6 +34,7 @@ body{
 #mainNav a {
   color: #F30000;
   margin: auto 10px;
+  outline: none !important;
 }
 
 @media (min-width: 992px) {
@@ -63,6 +64,10 @@ body{
   }
 }
 
+.hero{
+  height: 100vh;
+}
+
 .hero-h1{
   margin:30vh auto 25px;
   font-weight: bold;
@@ -84,22 +89,31 @@ body{
   text-align: left;
 }
 
-
+.hero .btn{
+  position: absolute;
+  bottom: 15px;
+  left: 48%;
+}
 
 .hero-img{
   width: 800px;
-  margin: 20vh auto 0 -15vw;
+  margin: 22vh auto 0 -15vw;
 }
 
 .btn{
-  padding:10px 0 !important;
+  /* padding:10px 0 !important; */
   margin: 0 auto !important;
   display: block !important;
+}
+
+.btn:hover, .btn-focus, .btn-active{
+  outline: none !important;
 }
 
 .btn a{
   text-decoration: none;
   color:#23ec50;
+  outline: none !important;
 }
 
 .btn-circle {
