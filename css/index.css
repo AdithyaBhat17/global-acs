@@ -68,8 +68,6 @@ body{
   }
 }
 
-
-
 .hero-h1{
   margin:30vh auto 25px;
   font-weight: bold;
@@ -101,6 +99,12 @@ body{
   margin: 45px auto !important;
   display: block !important;
   font-size: 26px !important;
+  -webkit-animation-duration: 4s !important;
+  -webkit-animation-iteration-count: infinite !important;
+  -moz-animation-duration: 4s !important;
+  -moz-animation-iteration-count: infinite !important;
+  animation-duration: 4s !important;
+  animation-iteration-count: infinite;
 }
 
 .btn:hover, .btn-focus, .btn-active{
