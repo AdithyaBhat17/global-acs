@@ -74,8 +74,7 @@ body{
   padding-bottom: 5px;
   position: relative;
   opacity: 0;
-  margin-left: -100px;
-  animation: 1s slide-left 1s forwards;
+  animation: 1s fade-in 0.5s forwards;
 }
 .hero-h1:before{
     content: "";
@@ -91,16 +90,14 @@ body{
 .hero-text{
   text-align: left;
   opacity: 0;
-  margin-left: -100px;
-  animation: 1s slide-left 1s forwards;
+  animation: 1s fade-in 1s forwards;
 }
 
 .hero-img{
   width:500px;
-  margin: 22vh auto 0 5vw;
   opacity: 0;
-  margin-right: 100px;
-  animation: 1s slide-right 1s forwards;
+  margin: 22vh auto 0 5vw;
+  animation: 1s fade-in 1s forwards;
 }
 
 .navbar-brand,.nav-item{
