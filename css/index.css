@@ -266,8 +266,45 @@ body{
 
 .modal-content{
   border:none !important;
+  border-radius:0 !important;
+  background-color: #555 !important;
+  color:#f3f3f3;
 }
 
+.modal-h3{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: relative;
+  padding-bottom: 5px;
+  margin:25vh auto 5px;
+}
+.modal-h3:before{
+  content: "";
+  position: absolute;
+  width: 20%;
+  bottom: 0;
+  left:40%;
+  border-bottom: 4px solid #f30000;
+  opacity:0.8;
+}
+
+.modal-p{
+  text-align: justify;
+}
+
+.modal-capital{
+  height: 80%;
+}
+
+.modal-overhead{
+  height: 100%;
+  width: 100%;
+}
+.modal-risk{
+  height: 100%;
+  width: 100%;
+}
 
 /* iphone 4,moto g5, and other 5' screens */
 @media only screen and (max-width:360px){
@@ -342,6 +379,49 @@ body{
   }
   .sol-img .bestsol{
     height: 100%;
+  }
+  .modal-capital{
+    display: flex;
+    margin:20px auto 0;
+    width: 50%;
+    height: 80%;
+  }
+  .modal-overhead{
+    display: flex;
+    margin:20px auto 0;
+    width: 50%;
+    height: 90%;
+  }
+  .modal-risk{
+    display: flex;
+    margin:20px auto 0;
+    width: 50%;
+    height: 90%;
+  }
+  .modal-sol{
+    display: flex;
+    margin:20px auto 0;
+    width: 30%;
+    height: 80%;
+  }
+  .overhead-h3{
+    margin:0 auto 5px !important;
+  }
+  .risk-h3{
+    margin: 2px auto 5px !important;
+  }
+  .solution-h3{
+    margin:-10px auto 5px !important;
+  }
+  .modal-h3{
+    margin: -35px auto 5px;
+  }
+  .modal-h3:before{
+    width: 40%;
+    left:30%;
+  }
+  .modal-p{
+    font-size: 14px !important;
   }
 }
 
@@ -419,6 +499,49 @@ body{
   .sol-img .bestsol{
     height: 100%;
   }
+  .modal-capital{
+    display: flex;
+    margin:20px auto 0;
+    width: 50%;
+    height: 80%;
+  }
+  .modal-overhead{
+    display: flex;
+    margin:20px auto 0;
+    width: 50%;
+    height: 90%;
+  }
+  .modal-risk{
+    display: flex;
+    margin:20px auto 0;
+    width: 50%;
+    height: 90%;
+  }
+  .modal-sol{
+    display: flex;
+    margin:20px auto 0;
+    width: 30%;
+    height: 80%;
+  }
+  .overhead-h3{
+    margin:0 auto 5px !important;
+  }
+  .risk-h3{
+    margin: 2px auto 5px !important;
+  }
+  .solution-h3{
+    margin:-10px auto 5px !important;
+  }
+  .modal-h3{
+    margin: -35px auto 5px;
+  }
+  .modal-h3:before{
+    width: 40%;
+    left:30%;
+  }
+  .modal-p{
+    font-size: 14px !important;
+  }
 }
 
 /* iphone x */
@@ -430,6 +553,9 @@ body{
   }
   .hero{
     height: 100vh;
+  }
+  .close{
+    margin: 25px auto !important;
   }
 }
 
@@ -507,6 +633,52 @@ body{
   .sol-img .bestsol{
     height: 100%;
   }
+  .modal-capital{
+    display: flex;
+    margin:20px auto 0;
+    width: 50%;
+    height: 80%;
+  }
+  .modal-overhead{
+    display: flex;
+    margin:20px auto 0;
+    width: 50%;
+    height: 90%;
+  }
+  .modal-risk{
+    display: flex;
+    margin:20px auto 0;
+    width: 50%;
+    height: 90%;
+  }
+  .modal-sol{
+    display: flex;
+    margin:20px auto 0;
+    width: 30%;
+    height: 80%;
+  }
+  .overhead-h3{
+    margin:0 auto 5px !important;
+  }
+  .risk-h3{
+    margin: 2px auto 5px !important;
+  }
+  .solution-h3{
+    margin:-10px auto 5px !important;
+  }
+  .modal-h3{
+    margin: -35px auto 5px;
+  }
+  .modal-h3:before{
+    width: 40%;
+    left:30%;
+  }
+  .modal-p{
+    font-size: 14px !important;
+  }
+  .close{
+    margin:35px auto 25px;
+  }
 }
 
 /*phablets */
@@ -533,13 +705,58 @@ body{
   .btn{
     margin: 0 auto !important;
   }
-
+  .modal-capital{
+    display: flex;
+    margin:20px auto 0;
+    width: 50%;
+    height: 80%;
+  }
+  .modal-overhead{
+    display: flex;
+    margin:20px auto 0;
+    width: 50%;
+    height: 90%;
+  }
+  .modal-risk{
+    display: flex;
+    margin:20px auto 0;
+    width: 50%;
+    height: 90%;
+  }
+  .modal-sol{
+    display: flex;
+    margin:20px auto 0;
+    width: 30%;
+    height: 80%;
+  }
+  .overhead-h3{
+    margin:0 auto 5px !important;
+  }
+  .risk-h3{
+    margin: 2px auto 5px !important;
+  }
+  .solution-h3{
+    margin:-10px auto 5px !important;
+  }
+  .modal-h3{
+    margin: -35px auto 5px;
+  }
+  .modal-h3:before{
+    width: 40%;
+    left:30%;
+  }
+  .modal-p{
+    font-size: 14px !important;
+  }
+  .close{
+    margin:35px auto 25px;
+  }
 }
 /* ipads */
 @media only screen and (min-width:601px) and (max-width:800px){
-  .hero{
+  /* .hero{
     height: 100vh;
-  }
+  } */
   .hero-img{
     width: 90%;
     display: flex;
@@ -613,6 +830,53 @@ body{
   .sol-img .bestsol{
     height: 100%;
   }
+  .modal-capital{
+    display: flex;
+    margin:20px auto 0;
+    width: 50%;
+    height: 80%;
+  }
+  .modal-overhead{
+    display: flex;
+    margin:20px auto 0;
+    width: 50%;
+    height: 90%;
+  }
+  .modal-risk{
+    display: flex;
+    margin:20px auto 0;
+    width: 50%;
+    height: 90%;
+  }
+  .modal-sol{
+    display: flex;
+    margin:20px auto 0;
+    width: 30%;
+    height: 80%;
+  }
+  .overhead-h3{
+    margin:0 auto 5px !important;
+  }
+  .risk-h3{
+    margin: 2px auto 5px !important;
+  }
+  .solution-h3{
+    margin:-10px auto 5px !important;
+  }
+  .modal-h3{
+    margin: -35px auto 5px;
+    font-size: 32px !important;
+  }
+  .modal-h3:before{
+    width: 30%;
+    left:35%;
+  }
+  .modal-p{
+    font-size: 18px !important;
+  }
+  .close{
+    margin:35px auto 45px !important;
+  }
 }
 
 /* ipad pro */
@@ -655,5 +919,71 @@ body{
   }
   .sol-img .bestsol{
     height: 100%;
+  }
+  .modal-capital{
+    display: flex;
+    margin:20vh auto 0;
+    width: 80%;
+    height: 80%;
+  }
+  .modal-overhead{
+    display: flex;
+    margin:20vh auto 0;
+    width: 80%;
+    height: 90%;
+  }
+  .modal-risk{
+    display: flex;
+    margin:20vh auto 0;
+    width: 90%;
+    height: 90%;
+  }
+  .modal-sol{
+    display: flex;
+    margin:20vh auto 0;
+    width: 70%;
+    height: 80%;
+  }
+  .overhead-h3{
+    margin:40vh auto 5px !important;
+  }
+  .risk-h3{
+    margin: 40vh auto 5px !important;
+  }
+  .solution-h3{
+    margin:35vh auto 5px !important;
+  }
+  .modal-h3{
+    margin: 40vh auto 5px;
+    font-size:42px;
+  }
+  .modal-h3:before{
+    width: 30%;
+    left:35%;
+  }
+  .modal-p{
+    font-size: 21px !important;
+  }
+  .close{
+    margin:35px auto 25px;
+  }
+}
+
+/* pc */
+@media only screen and (min-width:1400px) and (max-width:2000px){
+  .modal-capital{
+    margin:10vh auto;
+  }
+  .modal-overhead{
+    margin:10vh auto;
+  }
+  .modal-risk{
+    margin:10vh auto;
+  }
+  .modal-sol{
+    margin:15vh auto;
+  }
+  .modal-h3{
+    margin:35vh auto 10px;
   }
 }
