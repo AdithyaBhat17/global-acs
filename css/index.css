@@ -10,6 +10,12 @@ html{
   height:100%;
   margin:0;
 }
+a{
+  text-decoration: none;
+}
+a:hover,a:focus,a:active {
+  text-decoration: none !important;
+}
 
 body{
   background-color: #eaeaea !important;
@@ -235,8 +241,31 @@ body{
 .sol-p{
   margin-top: 2px;
   margin: 0 auto;
+  color:#555;
   text-align: justify;
   font-size: 12px;
+}
+
+/* modals for solution */
+.modals{
+  background-color: #555 !important;
+}
+
+.close{
+  float:none !important;
+  display: block;
+  margin:15px auto 0;
+  -webkit-transition: -webkit-transform .2s ease-in-out;
+          transition:         transform .2s ease-in-out;
+}
+
+.close:hover,.close:focus,.close:active{
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.modal-content{
+  border:none !important;
 }
 
 
