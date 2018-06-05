@@ -103,7 +103,7 @@ body{
 
 .navbar-brand,.nav-item{
   opacity: 0 !important;
-  animation: 2s fade-in 0.7s forwards;
+  animation: 0.5s fade-in 0.5s forwards;
 }
 
 @keyframes fade-in {
@@ -187,11 +187,32 @@ body{
   width: 100px;
   height: 100px;
   background-color: #a9a9a9;
-  padding: 2px;
+  padding: 5px;
   box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.2),1px 3px 6px rgba(0, 0, 0, 0.3) !important;
   margin: 20px auto 0;
 }
 
+.sol-img img{
+  width: 50px;
+  display: block;
+  margin: 0 auto;
+}
+
+.sol-img .capital{
+  height: 90px;
+}
+.sol-img .overhead{
+  height: 90px;
+  width: 60px;
+}
+.sol-img .risk{
+  height: 80px !important;
+  margin-right: 25px;
+}
+.sol-img .bestsol{
+  height: 90px;
+  width: 35px;
+}
 
 .sol-h5{
   text-align: center;
@@ -280,6 +301,19 @@ body{
   .sol-p span{
     display: none;
   }
+  .sol-img .capital{
+    height: 100%;
+    width: 60%;
+  }
+  .sol-img .overhead{
+    height: 100%;
+  }
+  .sol-img .risk{
+    height: 100%;
+  }
+  .sol-img .bestsol{
+    height: 100%;
+  }
 }
 
 /* iphone 5,6,7,8 and other 5.5' screens */
@@ -342,6 +376,19 @@ body{
   }
   .sol-p span{
     display: none;
+  }
+  .sol-img .capital{
+    height: 100%;
+    width: 60%;
+  }
+  .sol-img .overhead{
+    height: 100%;
+  }
+  .sol-img .risk{
+    height: 100%;
+  }
+  .sol-img .bestsol{
+    height: 100%;
   }
 }
 
@@ -418,6 +465,19 @@ body{
   .sol-p span{
     display: none;
   }
+  .sol-img .capital{
+    height: 100%;
+    width: 60%;
+  }
+  .sol-img .overhead{
+    height: 100%;
+  }
+  .sol-img .risk{
+    height: 100%;
+  }
+  .sol-img .bestsol{
+    height: 100%;
+  }
 }
 
 /*phablets */
@@ -448,6 +508,9 @@ body{
 }
 /* ipads */
 @media only screen and (min-width:601px) and (max-width:800px){
+  .hero{
+    height: 100vh;
+  }
   .hero-img{
     width: 90%;
     display: flex;
@@ -508,6 +571,19 @@ body{
   .sol-p span{
     display: none;
   }
+  .sol-img .capital{
+    height: 100%;
+    width: 60%;
+  }
+  .sol-img .overhead{
+    height: 100%;
+  }
+  .sol-img .risk{
+    height: 100%;
+  }
+  .sol-img .bestsol{
+    height: 100%;
+  }
 }
 
 /* ipad pro */
@@ -537,5 +613,18 @@ body{
   }
   .btn{
     /* display: none !important; */
+  }
+  .sol-img .capital{
+    height: 100%;
+    width: 60%;
+  }
+  .sol-img .overhead{
+    height: 100%;
+  }
+  .sol-img .risk{
+    height: 100%;
+  }
+  .sol-img .bestsol{
+    height: 100%;
   }
 }
