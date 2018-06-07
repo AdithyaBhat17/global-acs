@@ -157,7 +157,7 @@ body{
 .solutions{
   background-color: #A9A9A9;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 50px;
 }
 
 .sol-h3{
@@ -307,6 +307,67 @@ body{
   width: 100%;
 }
 
+/* services */
+.services{
+  color:#f3f3f3;
+  background-color:#555;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.services-h3{
+  text-align: center;
+  font-weight: bold;
+  margin: 0 auto;
+  text-transform: uppercase;
+  color:#f1f1f1;
+  padding-bottom: 5px;
+  position: relative;
+}
+.services-h3:before{
+  content:"";
+  position: absolute;
+  width: 5%;
+  left:47.5%;
+  bottom:0;
+  border-bottom: 4px solid #f30000;
+}
+
+.service-why{
+  margin: 50px auto;
+  width: 100%;
+}
+.service-recent{
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+.service-free{
+  width: 90%;
+  height: 90%;
+  display: block;
+  margin: 0 auto;
+}
+
+.service-h5{
+  text-align: center;
+  font-weight: bold;
+  margin:50px auto 10px;
+}
+
+
+
+.service-p{
+  text-align: justify;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.free-h5{
+  margin:100px auto 10px;
+}
+
+
 /* iphone 4,moto g5, and other 5' screens */
 @media only screen and (max-width:360px){
   .hero-img{
@@ -329,6 +390,9 @@ body{
   }
   .btn{
     margin: 0 auto !important;
+  }
+  .solutions{
+    padding-bottom: 40px;
   }
   .sol-img{
     width: 90px;
@@ -423,6 +487,21 @@ body{
   }
   .modal-p{
     font-size: 14px !important;
+  }
+  .services{
+    padding-top: 20px;
+  }
+  .services-h3:before{
+    width:20%;
+    left:40%;
+  }
+  .service-why{
+    display: block;
+    margin:20px auto 0;
+    width: 90%;
+  }
+  .service-h5{
+    margin: 10px auto !important;
   }
 }
 
@@ -542,6 +621,21 @@ body{
   }
   .modal-p{
     font-size: 14px !important;
+  }
+  .services{
+    padding-top: 20px;
+  }
+  .services-h3:before{
+    width:20%;
+    left:40%;
+  }
+  .service-why{
+    display: block;
+    margin:20px auto 0;
+    width: 90%;
+  }
+  .service-h5{
+    margin: 10px auto !important;
   }
 }
 
@@ -680,6 +774,21 @@ body{
   .close{
     margin:35px auto 25px;
   }
+  .services{
+    padding-top: 20px;
+  }
+  .services-h3:before{
+    width:20%;
+    left:40%;
+  }
+  .service-why{
+    display: block;
+    margin:20px auto 0;
+    width: 90%;
+  }
+  .service-h5{
+    margin: 10px auto !important;
+  }
 }
 
 /*phablets */
@@ -751,6 +860,25 @@ body{
   }
   .close{
     margin:35px auto 25px;
+  }
+  .services{
+    padding-top: 20px;
+  }
+  .services-h3:before{
+    width:10%;
+    left:45%;
+  }
+  .service-why{
+    display: block;
+    margin:20px auto 0;
+    width: 90%;
+  }
+  .service-h5{
+    margin: 10px auto !important;
+    font-size: 24px;
+  }
+  .service-p{
+    font-size: 16px;
   }
 }
 /* ipads */
@@ -878,6 +1006,25 @@ body{
   .close{
     margin:35px auto 45px !important;
   }
+  .services{
+    padding-top: 20px;
+  }
+  .services-h3:before{
+    width:10%;
+    left:45%;
+  }
+  .service-why{
+    display: block;
+    margin:20px auto 0;
+    width: 90%;
+  }
+  .service-h5{
+    margin: 10px auto !important;
+    font-size: 24px;
+  }
+  .service-p{
+    font-size: 18px;
+  }
 }
 
 /* ipad pro */
@@ -967,6 +1114,26 @@ body{
   }
   .close{
     margin:35px auto 25px;
+  }
+  .service-why{
+    display: block;
+    margin:300px auto 0;
+    width: 90%;
+  }
+  .service-recent{
+    margin: 150px auto 0;
+  }
+  .service-free{
+    margin:50px auto 0;
+  }
+  .free-h5{
+    margin:100px auto 0 !important;
+  }
+  .service-h5{
+    margin: 40px auto 20px;
+  }
+  .service-p{
+    font-size: 18px;
   }
 }
 
