@@ -70,4 +70,14 @@ $("#demo03").animatedModal(
 $("#demo04").animatedModal(
   {modalTarget:'animatedModal4'}
 );
+$("#demo05").animatedModal(
+  {modalTarget:'animatedModal5'}
+);
+$("#demo06").animatedModal(
+  {modalTarget:'animatedModal6'}
+);
+$("#demo07").animatedModal(
+  {modalTarget:'animatedModal7'}
+);
+
 
